@@ -2,6 +2,13 @@
 <?php require_once('config.php') ?>
 <!-- config.php should be here as the first include  -->
 
+<?php require_once(ROOT_PATH . '/includes/public_functions.php') ?>
+
+<!-- Retrieve all posts from database  -->
+<?php $posts = getPublishedPosts(); ?>
+
+<!-- config.php should be here as the first include  -->
+
 <?php require_once(ROOT_PATH . '/includes/head_section.php') ?>
 <title>FashionDash| Home </title>
 </head>
@@ -22,7 +29,7 @@
 			<h2 class="content-title">Lets Get Renti'n</h2>
 			<hr>
 			<!-- more content still to come here ... -->
-			
+
 		</div>
 		<!-- // Page content -->
 

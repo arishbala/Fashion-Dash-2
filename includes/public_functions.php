@@ -15,3 +15,4 @@ function getPublishedPosts() {
 }
 
 // more functions to come here ...
+?>
